@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('/assets/img/background-line.svg') !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:fit;
+}
+header{
+  padding: 10px 80px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  font-size: 22px;
+}
+.nav-gap{
+  margin-right: 50px;
+}
+
+.container-box {
+  padding: 0 60px;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.left-section {
+  padding: 10px 0 0 80px;
+  width: 70%;
+}
+
+.logo-heading {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bg-custom {
+  background: url('/assets/img/background.svg'), #F1F6FE;
+  padding: 35px 0px;
+}
+
+.img-circle {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+}
+
+.img-rounded {
+  width: 290px;
+  height: 290px;
+  border-radius: 8px;
+}
+
+.img-custom-rounded-1 {
+  width: 290px;
+  height: 290px;
+  border-radius: 90% 8px 8px 90%;
+}
+
+.img-custom-rounded-2 {
+  width: 290px;
+  height: 290px;
+  border-radius: 8px 90% 8px 8px;
+}
+
+.icon-box {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #FF9257;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.bottom-section {
+  height: 190px;
+  background-color: #FF9257;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 58.33%;
+}
+
+.border-highlight {
+  border-left: 4px solid #F7BE2C;
+}
+
+.stats-box {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.custom-button {
+  padding: 20px 65px;
+  border-radius: 60px;
+  background-color: #2F584E;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #FF9257;
+}
+
+.icon-img {
+  width: 90px;
+  height: 90px;
+}
+
+.overlap-icon {
+  margin-left: -46px;
+}
+
+.mt-6 {
+  margin-top: 70px;
+}
+
+.bottom-text {
+  font-size:55px ;
+  line-height: 46px;
+}
+
+.bottom-paragraph {
+  font-size:20px ;
+}
